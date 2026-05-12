@@ -18,8 +18,10 @@ import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
 public class DynamoDBConfig {
 
 
+    @Value("${aws.region}")
     private String region;
 
+    @Value("${aws.accessKey}")
     private String accessKey;
 
     @Value("${aws.secretKey}")
