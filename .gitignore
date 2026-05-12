@@ -11,7 +11,7 @@ target/
 out/
 
 .env
-application.properties
+
 
 ### STS ###
 .apt_generated
